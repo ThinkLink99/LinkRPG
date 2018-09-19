@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 using LinkEngine.WorldGen;
-using 
+using LinkEngine.Entities;
 
 namespace UntitledRPG
 {
@@ -22,16 +22,32 @@ namespace UntitledRPG
 
         Adventurer CreatePlayer ()
         {
-            return null
+            Adventurer player = new Adventurer(0, "Adventurer", new Class("Rogue", "", 4, 7, 4, 5, 4, 5, 3, 50, 10), 1, 0, 100, 10, "player");
+            return player;
+        }
+        void GenerateWorld ()
+        {
+            DungeonGeneration generation = new DungeonGeneration();
+            generation.BuildMap(1, world.Biomes[0], 1, 1);
         }
         World CreateWorld()
         {
-            return null;
+            World _world = new World();
+            _world.Player = Player;
+
+            try { _world.LoadEnemyDatabase(""); } catch { }
+            try { _world.LoadTileDatabase(""); } catch { }
+            try { _world.LoadBiomeDatabase(""); } catch { }
+
+            return _world;
         }
         void SetupWorld ()
         {
-            world = CreateWorld();
             Player = CreatePlayer();
+
+            world = CreateWorld();
+
+            GenerateWorld();
         }
 
         #region Events
@@ -62,6 +78,10 @@ namespace UntitledRPG
                     // interact
                     break;
             }
+        }
+        private void DrawTimer_Tick(object sender, System.EventArgs e)
+        {
+            // Draw Things to the screen
         }
         #endregion
     }

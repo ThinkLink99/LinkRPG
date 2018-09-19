@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pbGameForm = new System.Windows.Forms.PictureBox();
+            this.DrawTimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbGameForm)).BeginInit();
             this.SuspendLayout();
             // 
@@ -40,6 +42,12 @@
             this.pbGameForm.Size = new System.Drawing.Size(800, 450);
             this.pbGameForm.TabIndex = 0;
             this.pbGameForm.TabStop = false;
+            // 
+            // DrawTimer
+            // 
+            this.DrawTimer.Enabled = true;
+            this.DrawTimer.Interval = 50;
+            this.DrawTimer.Tick += new System.EventHandler(this.DrawTimer_Tick);
             // 
             // MainForm
             // 
@@ -58,5 +66,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pbGameForm;
+        private System.Windows.Forms.Timer DrawTimer;
     }
 }

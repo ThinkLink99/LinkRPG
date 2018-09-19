@@ -4,3 +4,16 @@ C:\Users\thall\Source\Repos\LinkEngine\LinkRPG\bin\Debug\LinkEngine.pdb
 C:\Users\thall\Source\Repos\LinkEngine\LinkRPG\obj\Debug\LinkRPG.csprojResolveAssemblyReference.cache
 C:\Users\thall\Source\Repos\LinkEngine\LinkRPG\obj\Debug\LinkEngine.RPG.dll
 C:\Users\thall\Source\Repos\LinkEngine\LinkRPG\obj\Debug\LinkEngine.RPG.pdb
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\LinkRPG.csprojAssemblyReference.cache
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\UntitledRPG.MainForm.resources
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\UntitledRPG.Properties.Resources.resources
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\LinkRPG.csproj.GenerateResource.cache
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\LinkRPG.csproj.CoreCompileInputs.cache
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\bin\Debug\Untitled RPG.exe
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\bin\Debug\Untitled RPG.pdb
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\bin\Debug\Untitled RPG.exe.CodeAnalysisLog.xml
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\bin\Debug\Untitled RPG.exe.lastcodeanalysissucceeded
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\bin\Debug\LinkEngine.pdb
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\LinkRPG.csproj.CopyComplete
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\Untitled RPG.exe
+C:\Users\thall\Source\Repos\LinkRPG\LinkRPG\obj\Debug\Untitled RPG.pdb
